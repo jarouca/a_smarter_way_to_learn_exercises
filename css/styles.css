@@ -25,3 +25,17 @@ p.important {
 .red {
     color: red;
 }
+
+.spaced-paragraph {
+  line-height: 2em;
+  letter-spacing: 1.5em;
+  word-spacing: 2em;
+}
+
+h3 {
+  text-align: center;
+}
+
+p.justified {
+  text-align: justify;
+}
