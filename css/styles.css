@@ -44,7 +44,7 @@ p.indent {
   text-indent: 1em;
 }
 
-p.blockquote {
+blockquote {
   font-size: 1em;
   color: green;
 }
