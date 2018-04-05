@@ -39,3 +39,12 @@ h3 {
 p.justified {
   text-align: justify;
 }
+
+p.indent {
+  text-indent: 1em;
+}
+
+p.blockquote {
+  font-size: 1em;
+  color: green;
+}
