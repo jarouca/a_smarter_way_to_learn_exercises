@@ -55,4 +55,5 @@ p.offset {
 
 .border {
   border: 5px double green;
+  padding: 2em;
 }
