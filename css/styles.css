@@ -70,3 +70,7 @@ h2#tosh {
 div.margin {
   margin: 0 10em 0 10em;
 }
+
+.blockImage {
+  display: block;
+}
