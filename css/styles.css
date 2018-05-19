@@ -92,3 +92,7 @@ div.margin {
 .noWrap {
   clear: both;
 }
+
+a {
+  color: grey;
+}
