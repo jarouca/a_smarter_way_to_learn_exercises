@@ -96,3 +96,7 @@ div.margin {
 a {
   color: grey;
 }
+
+a:hover {
+  color: orange;
+}
