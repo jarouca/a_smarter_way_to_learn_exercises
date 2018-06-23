@@ -112,3 +112,12 @@ ul {
 div#blah p {
   font-size: 2em;
 }
+
+th, td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
