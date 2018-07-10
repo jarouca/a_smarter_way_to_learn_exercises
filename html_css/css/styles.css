@@ -128,3 +128,7 @@ table {
   width: 75%;
   text-align: center;
 }
+
+.shade {
+  background-color: lightgray;
+}
