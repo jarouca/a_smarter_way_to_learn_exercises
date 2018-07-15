@@ -6,3 +6,6 @@ var remainder = 45 % 6;
 var newerNum = newNum + remainder;
 var product = ((2 * 4) * 4) + (3 * 4);
 alert(product);
+var name = "Tom Bombadil";
+var greeting = "Hello, " + name + "!";
+alert(greeting);
