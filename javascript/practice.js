@@ -9,3 +9,4 @@ alert(product);
 var name = "Tom Bombadil";
 var greeting = "Hello, " + name + "!";
 alert(greeting);
+var bluesGuitar = prompt("What's your favorite guitar to play the blues on?", "Gibson ES-335");
