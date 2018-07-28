@@ -21,3 +21,11 @@ if (ticketNumber !== 1234) {
   alert("Better luck next time.")
 }
 // if, else, els if statements
+var correctAnswer = "everybody"
+var answer = prompt("who is it a secret to?")
+if (answer === correctAnswer) {
+  alert("correct");
+}
+else {
+  alert("wrong!");
+}
