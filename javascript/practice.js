@@ -20,3 +20,4 @@ if (bluesGuitar === "Gibson ES-335") {
 if (ticketNumber !== 1234) {
   alert("Better luck next time.")
 }
+// if, else, els if statements
