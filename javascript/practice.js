@@ -16,3 +16,7 @@ var bluesGuitar = prompt("What's your favorite guitar to play the blues on?", "G
 if (bluesGuitar === "Gibson ES-335") {
   alert("Mine too!");
 }
+// equality operators
+if (ticketNumber !== 1234) {
+  alert("Better luck next time.")
+}
