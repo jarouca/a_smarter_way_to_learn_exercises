@@ -135,5 +135,9 @@ table {
 
 input[type="text"], textarea {
   font-size: 2em;
-  padding: 10px;
+  padding: 2em;
+}
+
+legend {
+  font-weight: bolder;
 }
