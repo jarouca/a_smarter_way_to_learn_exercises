@@ -132,3 +132,8 @@ table {
 .shade {
   background-color: lightgray;
 }
+
+input[type="text"], textarea {
+  font-size: 2em;
+  padding: 10px;
+}
