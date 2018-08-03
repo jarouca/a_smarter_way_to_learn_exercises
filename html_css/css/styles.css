@@ -135,7 +135,7 @@ table {
 
 input[type="text"], textarea {
   font-size: 2em;
-  padding: 2em;
+  padding: 1em;
 }
 
 legend {

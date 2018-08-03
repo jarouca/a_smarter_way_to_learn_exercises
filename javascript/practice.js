@@ -29,3 +29,8 @@ if (answer === correctAnswer) {
 else {
   alert("wrong!");
 }
+
+// conditions with and/or
+if ((age > 65 || age < 21) && res === "U.S.") {
+  alert("Hello");
+}
