@@ -1,3 +1,9 @@
+body {
+  color: purple;
+  font-size: 1em;
+  font-family: Georgia, Times, serif;
+}
+
 p {
   font-family: Georgia, "Times New Roman", Times, Serif;
   font-size: 1.2em;
