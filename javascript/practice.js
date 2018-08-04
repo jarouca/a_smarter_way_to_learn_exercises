@@ -34,3 +34,19 @@ else {
 if ((age > 65 || age < 21) && res === "U.S.") {
   alert("Hello");
 }
+
+// nested if statements
+if (c === d) {
+  if (x=== y) {
+    g = h;
+  }
+  else if (a === b) {
+    g = h;
+  }
+  else {
+    e = f;
+  }
+}
+else {
+  e = f;
+}
