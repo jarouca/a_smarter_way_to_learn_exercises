@@ -50,3 +50,7 @@ if (c === d) {
 else {
   e = f;
 }
+
+// arrays
+
+var cities = ["Boston", "Los Angeles", "Guadalajara", "Juarez"]
