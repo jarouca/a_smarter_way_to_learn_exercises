@@ -137,7 +137,9 @@ input[type="text"], textarea {
   font-size: 2em;
   padding: 1em;
 }
-
+/*
+here's a multiline comment
+in front of legend styling */
 legend {
   font-weight: bolder;
 }
