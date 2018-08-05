@@ -164,36 +164,38 @@
 <!--
 here's a multiline comment
 in front of a form -->
-    <form action="test.rb" method="post">
-      <fieldset>
-        <legend>Text area</legend>
-        Name:
-        <input type="text" name="name" size="30" maxlength="20"><br><br>
-        Message:
-        <textarea name="message" rows="8" cols="40">
-        </textarea><br>
-      </fieldset>
-      <fieldset>
-        <legend>Question Area</legend>
-        Who's your favorite Blues singer?<br><br>
-        <label><input type="radio" name="bluesSinger" value="Freddie King" checked="checked">Freddie King</label>
-        <label><input type="radio" name="bluesSinger" value="Etta James">Etta James</label>
-        <label><input type="radio" name="bluesSinger" value="Gregg Allman">Gregg Allman</label><br><br>
-        Please select your favorite guitar amplifier<br><br>
-        <select name="guitarAmp">
-          <option value="favoriteAmp">Your Favorite Amp</option>
-          <option value="princeton">Fender Princeton</option>
-          <option value="deluxeReverb">Fender Deluxe Reverb</option>
-        </select><br><br>
-        What blues guitar techniques are you familiar with?<br><br>
-        <input type="checkbox" name="technique" value="slide">slide
-        <input type="checkbox" name="technique" value="fingerpicking">fingerpicking<br><br>
-        Who's your favorite Blues guitarist?<br><br>
-        <input type="radio" name="bluesGuitarist" value="Freddie King" checked="checked">Freddie King
-        <input type="radio" name="bluesGuitarist" value="Buddy Guy">Buddy Guy
-        <input type="radio" name="bluesGuitarist" value="Hubert Sumlin">Hubert Sumlin<br><br>
-      </fieldset>
-      <input type="submit" value="Submit"><br>
-    </form>
+    <div>
+      <form action="test.rb" method="post">
+        <fieldset>
+          <legend>Text area</legend>
+          Name:
+          <input type="text" name="name" size="30" maxlength="20"><br><br>
+          Message:
+          <textarea name="message" rows="8" cols="40">
+          </textarea><br>
+        </fieldset>
+        <fieldset>
+          <legend>Question Area</legend>
+          Who's your favorite Blues singer?<br><br>
+          <label><input type="radio" name="bluesSinger" value="Freddie King" checked="checked">Freddie King</label>
+          <label><input type="radio" name="bluesSinger" value="Etta James">Etta James</label>
+          <label><input type="radio" name="bluesSinger" value="Gregg Allman">Gregg Allman</label><br><br>
+          Please select your favorite guitar amplifier<br><br>
+          <select name="guitarAmp">
+            <option value="favoriteAmp">Your Favorite Amp</option>
+            <option value="princeton">Fender Princeton</option>
+            <option value="deluxeReverb">Fender Deluxe Reverb</option>
+          </select><br><br>
+          What blues guitar techniques are you familiar with?<br><br>
+          <input type="checkbox" name="technique" value="slide">slide
+          <input type="checkbox" name="technique" value="fingerpicking">fingerpicking<br><br>
+          Who's your favorite Blues guitarist?<br><br>
+          <input type="radio" name="bluesGuitarist" value="Freddie King" checked="checked">Freddie King
+          <input type="radio" name="bluesGuitarist" value="Buddy Guy">Buddy Guy
+          <input type="radio" name="bluesGuitarist" value="Hubert Sumlin">Hubert Sumlin<br><br>
+        </fieldset>
+        <input type="submit" value="Submit"><br>
+      </form>
+    </div>
   </body>
 </html>
