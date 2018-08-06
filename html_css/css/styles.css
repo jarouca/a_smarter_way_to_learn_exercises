@@ -1,4 +1,5 @@
 body {
+  width: 100%;
   color: purple;
   font-size: 1em;
   font-family: Georgia, Times, serif;
@@ -152,4 +153,12 @@ legend {
 
 #form-div {
   color: green;
+}
+
+div#center-paragraph {
+  width: 20%;
+  margin: 0 auto 0 auto;
+  color: brown;
+  font-weight: 900;
+  font-size: 2em;
 }
