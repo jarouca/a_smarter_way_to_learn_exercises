@@ -53,4 +53,12 @@ else {
 
 // arrays
 
-var cities = ["Boston", "Los Angeles", "Guadalajara", "Juarez"]
+var cities = ["Boston", "Los Angeles", "Guadalajara", "Juarez"];
+
+// delete last element
+
+cities.pop();
+
+// add elements to Fender
+
+cities.push("Mexico City", "Quebec City");
