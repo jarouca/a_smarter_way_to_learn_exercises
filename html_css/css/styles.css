@@ -166,9 +166,15 @@ div#center-paragraph {
 #left-div {
   float: left;
   width: 45%;
+  border: solid green 1px;
+  padding: 5px;
+  text-align: justify;
 }
 
 #right-div {
   float: right;
   width: 45%;
+  border: solid green 1px;
+  padding: 5px;
+  text-align: justify;
 }
