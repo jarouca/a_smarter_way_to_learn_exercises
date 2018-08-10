@@ -59,6 +59,22 @@ var cities = ["Boston", "Los Angeles", "Guadalajara", "Juarez"];
 
 cities.pop();
 
-// add elements to Fender
+// add elements to array
 
 cities.push("Mexico City", "Quebec City");
+
+// remove element from beginning of arrays
+
+cities.shift();
+
+// add element to beginning of arrays
+
+cities.unshift("New Orleans", "Seattle");
+
+// insert elements into arrays
+
+cities.splice(2, 0, "Porto");
+
+// copy elements from one array into another, leaving original array unchanged
+
+var mexicanCities = cities.slice(2, 3);

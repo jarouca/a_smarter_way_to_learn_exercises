@@ -153,6 +153,8 @@ legend {
 
 #form-div {
   color: green;
+  margin: 0 auto 0 auto;
+  width: 60%;
 }
 
 div#center-paragraph {
