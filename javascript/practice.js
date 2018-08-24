@@ -78,3 +78,13 @@ cities.splice(2, 0, "Porto");
 // copy elements from one array into another, leaving original array unchanged
 
 var mexicanCities = cities.slice(2, 3);
+
+// for loops
+
+var cityCheck = prompt("Enter city to check if it is in Mexico.");
+
+for (var i = 0; i < 2; i++) {
+  if (cityCheck === mexicanCities[i]) {
+    alert("Yes, this city is in Mexico.")
+  }
+}
