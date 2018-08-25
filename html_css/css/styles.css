@@ -13,6 +13,11 @@ div#header {
   background-color: #990000;
 }
 
+div#header h2 {
+  font-family: Verdana;
+  font-weight: 900;
+  color: white;
+}
 p {
   font-family: Georgia, "Times New Roman", Times, Serif;
   font-size: 1.2em;
