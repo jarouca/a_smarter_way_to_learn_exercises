@@ -21,6 +21,13 @@ div#header h2 {
   font-weight: 900;
   color: white;
 }
+
+div#header img {
+    float: left;
+    margin: 1em;
+
+}
+
 p {
   font-family: Georgia, "Times New Roman", Times, Serif;
   font-size: 1.2em;
