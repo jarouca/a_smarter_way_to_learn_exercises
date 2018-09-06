@@ -24,7 +24,7 @@ div#header h2 {
 
 div#header img {
     float: left;
-    margin: 1em;
+    margin: 1em 1em 0 1em;
 
 }
 
