@@ -88,3 +88,20 @@ for (var i = 0; i < 2; i++) {
     alert("Yes, this city is in Mexico.")
   }
 }
+
+
+// for loop with break, boolean, account for negative search result
+var numElements = mexicanCities.length;
+var matchFound = false;
+
+for (var i = 0; i < numElements; i++) {
+  if (cityCheck === mexicanCities[i]) {
+    matchFound = true;
+    alert("Yes, this city is in Mexico!");
+    break;
+  }
+}
+
+if (matchFound === false) {
+  alert("No, this city is not in Mexico.")
+}
