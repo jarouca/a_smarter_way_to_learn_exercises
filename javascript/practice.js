@@ -105,3 +105,18 @@ for (var i = 0; i < numElements; i++) {
 if (matchFound === false) {
   alert("No, this city is not in Mexico.")
 }
+
+var numbers = [1,2,3,4,5,6,7,8,9];
+var numElements = numbers.length;
+
+for (var i = 0; i < numElements; i++) {
+  if (numbers[i] % 2 === 0) {
+    matchFound = true;
+    alert("Yes, this number is even.");
+    break;
+  }
+}
+
+if (matchFound === false) {
+  alert("No, this number is not even :(")
+}
