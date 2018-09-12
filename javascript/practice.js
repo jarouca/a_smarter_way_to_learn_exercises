@@ -120,3 +120,17 @@ for (var i = 0; i < numElements; i++) {
 if (matchFound === false) {
   alert("No, this number is not even :(")
 }
+
+// nested for loops
+
+var firstNames = ["Hulk", "Jake", "Andre", "Hacksaw"];
+
+var lastNames = ["Hogan", "Roberts", "Giant", "Duggan"];
+
+var fullNames = [];
+
+for (var i = 0; i < firstNames.length; i++) {
+  for (var j = 0; j < lastNames.length; i++) {
+    fullNames.push(firstNames[i] + lastNames[j]);
+  }
+}
