@@ -5,7 +5,7 @@ body {
   font-family: Georgia, Times, serif;
 }
 
-div#header {
+div#header, div#invisible-header {
   width: 100%;
   position: fixed;
   top: 0;
@@ -13,7 +13,7 @@ div#header {
   background-color: #990000;
 }
 
-div#header h2 {
+div#header h2, div#invisible-header h2{
   margin-left: 2%;
   padding: 0;
   font-size: 2em;
@@ -22,7 +22,7 @@ div#header h2 {
   color: white;
 }
 
-div#header img {
+div#header img, div#invisible-header img {
     float: left;
     margin: 1em 1em 0 1em;
 
