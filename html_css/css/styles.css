@@ -5,7 +5,12 @@ body {
   font-family: Georgia, Times, serif;
 }
 
-div#header, div#invisible-header {
+div#invisible-header {
+  width: 100%;
+  visibility: hidden;
+}
+
+div#header {
   width: 100%;
   position: fixed;
   top: 0;
@@ -26,6 +31,14 @@ div#header img, div#invisible-header img {
     float: left;
     margin: 1em 1em 0 1em;
 
+}
+
+div#navbar {
+  clear: both;
+}
+
+div#navbar ul {
+  list-style-type: none;
 }
 
 p {
