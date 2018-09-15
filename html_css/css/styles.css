@@ -41,6 +41,13 @@ div#navbar ul {
   list-style-type: none;
 }
 
+div#navbar ul li a {
+  font-style: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+  font-weight: 900;
+  text-decoration: none;
+}
+
 p {
   font-family: Georgia, "Times New Roman", Times, Serif;
   font-size: 1.2em;
