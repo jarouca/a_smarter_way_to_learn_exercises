@@ -34,6 +34,7 @@ div#header img, div#invisible-header img {
 }
 
 div#navbar {
+  color: green;
   clear: both;
 }
 
