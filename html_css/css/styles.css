@@ -34,12 +34,14 @@ div#header img, div#invisible-header img {
 }
 
 div#navbar {
-  color: green;
+  background-color: green;
   clear: both;
+  display: inline-block;
 }
 
 div#navbar ul {
   list-style-type: none;
+  padding: 0;
 }
 
 div#navbar ul li a {
@@ -47,6 +49,7 @@ div#navbar ul li a {
   font-size: 1.1em;
   font-weight: 900;
   text-decoration: none;
+  color: white;
 }
 
 p {
