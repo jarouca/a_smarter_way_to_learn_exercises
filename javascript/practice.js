@@ -134,3 +134,10 @@ for (var i = 0; i < firstNames.length; i++) {
     fullNames.push(firstNames[i] + lastNames[j]);
   }
 }
+
+// slice
+
+var city = "boston";
+var firstLetter = city.slice(0, 1);
+var otherLetters = city.slice(1);
+var capitalizedCity = firstLetter.toUpperCase() + otherLetters.toLowerCase();
