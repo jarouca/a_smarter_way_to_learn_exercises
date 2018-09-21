@@ -141,3 +141,15 @@ var city = "boston";
 var firstLetter = city.slice(0, 1);
 var otherLetters = city.slice(1);
 var capitalizedCity = firstLetter.toUpperCase() + otherLetters.toLowerCase();
+
+// indexOf, the following will replace "World War II" with "the Second World War",
+// but only the first instance
+
+var text = "It is startling to think that, even in the darkest depths of World War    II,    J. R. R. Tolkien was writing the trilogy, which contains, with the weird applicability available only to poetry and myth, the essential notion that the good gray wizard can understand the evil magi precisely because he is just enough like them to grasp their minds and motives in ways that they cannot grasp his.";
+
+var firstChar = text.indexOf("World War II");
+
+if (firstChar !== -1) {
+  text = text.slice(0, firstChar) + "the Second World War" +
+  text.slice(firstChar + 12);
+}
