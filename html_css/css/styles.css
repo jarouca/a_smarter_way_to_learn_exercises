@@ -44,7 +44,8 @@ div#navbar ul {
 }
 
 div#navbar ul li {
-  background-color: green;
+  background-color: blue;
+  margin: 0 0 .25em 0;
 }
 
 
@@ -54,6 +55,8 @@ div#navbar ul li a {
   font-weight: 900;
   text-decoration: none;
   color: white;
+  display: block;
+  padding: .35em;
 }
 
 p {
